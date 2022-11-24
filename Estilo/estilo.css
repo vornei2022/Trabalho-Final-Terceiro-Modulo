@@ -1,0 +1,66 @@
+nav>a{
+    padding: 08px; 
+    text-align: center;
+    border-radius: 08px;
+font-size: xx-large;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 80px;
+}
+h2{
+    font-size: larger;
+    background-color: rgb(184, 136, 136);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+h1{
+    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 09px;
+    
+} 
+
+h2#jogosdigitais{
+    background-color: cadetblue;
+}
+h2#segurançadainformação{
+  background-color: paleturquoise;
+}
+h2#ihtml{
+    background-color:rgb(241, 185, 112);
+}
+h2#redesdecomputadores{
+background-color: thistle;
+}
+h2#analiseedesenvolvimentodesistemas{
+    background-color: lightsteelblue
+}
+
+nav>a:hover{
+    background-color: rgb(205, 255, 234);
+}
+h1:hover{
+    background-color: sandybrown;
+}
+h2#Amortecedores{
+    font-size: medium;
+    background-color: rgb(199, 141, 70);
+}
+h2#Hidraulica{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgrey;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, white, bisque);
+}
+footer{
+    font-size: medium;
+    background-color: bisque;
+}
+footer>h1{
+    background-image: linear-gradient(to right, white, bisque); 
+    font-size: 12pt;
+}

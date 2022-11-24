@@ -1,0 +1,17 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+}
+h1{
+    display: none;
+}
+section{
+    border: 2px solid black;
+}
+img{
+    display: none;
+}
+nav>a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}

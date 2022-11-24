@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Incrição de Cursos </title>
+    <link rel="stylesheet" href="Estilo/estilo.css">
+    <link rel="stylesheet" href="Estilo/Impressao.css" media="print">
+    <link rel="stylesheet" href="Estilo/Celular.css" media="screen and (max-width: 768px)">
+</head>
+<body id="pag4">
+
+    <header>
+        <nav> 
+            <a href="index.html">Cursos de Programação </a>
+            <a href="index01.html">Curso de Eletromecanica </a>
+            <a href="index02.html">Curso de Engenharia Civil </a>
+            <a href="Formulario.html"> Formulario </a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section> 
+            <h1> Cadastro nos Seguintes Cursos Tecnicos </h1>
+            <form> 
+                <fieldset>
+                <legend>Dados do Aluno </legend>
+
+                <p> <label for="iNome">Nome Completo.</label>
+                <input type="text" name="nome" id="iNome" size="48"required></p>
+
+                <p> <label for="idata">Data de Nascimento.</label>
+                    <input type="date" name="Data" id="idata" size="48" required>   
+                    <input type="text" name="Sexo Masculino/Feminino" id="isexomasculino/feminino"required size="28" 
+                    placeholder= "Sexo Masculino/feminino">
+                    <Feminino></Feminino></P>
+
+               <p> <label for="icpf">CPF</label>
+               <input type="text" name="CPF" id="icpf" size="61" placeholder="XXX-XXXX-XXX-XX"required></P> 
+               
+               <p> <label for="iidentidade">Identidade</label>
+                <input type="text" name="Identidade" id="iidentidade" size="54" placeholder="MG-XX XXX XXX"required></P> 
+
+               <p> <label for="iE-maill">E-maill.</label>
+              <input type="text" name="E-maill" id="iE-maill" size="57"required></P> 
+
+             <p> <label for="inumerodotelefone">Numero do telefone.</label>
+            <input type="text" name="Numero do telefone" id="inumerodotelefone" size="5" placeholder="XX">
+             <input type="text" name="Numero do telefone" id="inumerodotelefone" size="32" placeholder="X XXXX-XXXX"required></p>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço Completo do Aluno</legend>
+             <p>
+                 <label for="iendereçocompleto"> Endereço Completo </label>
+                 <p><input type="text" name=" Endreço Completo" id="iendereçocompleto" required size="30" placeholder="Rua:"required></p>
+                 <p><input type="text" name=" Endreço Completo" id="iendereçocompleto" required size="30" placeholder="Bairro:"required></p>
+                 <p><input type="text" name=" Endreço Completo" id="iendereçocompleto" required size="30" placeholder="Cidade:"required></p>
+                 <p><input type="text" name=" Endreço Completo" id="iendereçocompleto" required size="30" placeholder="Cep:"required></p>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Cursos Disponiveis para Cadastro no Sitemas</legend>
+
+            <p> 
+             <input type="radio" name="Curso" id="icursodeprogramação">
+             <label for="icursodeprogramação">Curso de Programação</label>  
+            </p>
+            <p> <input type="radio" name="Curso" id="icursodeeletromecânica">
+                <label for="icursodeeletromecânica">Curso de Eletromecânica</label> </p>
+
+                <p> <input type="radio" name="Curso" id="icursodeengenharia">
+                <label for="icursodeengenharia">Curso de Engenharia</label> </p>
+
+                <p> <input type="radio" name="Curso" id="ijogosdigitais">
+                    <label for="ijogosdigitais">Jogos Digitais</label> </p>
+
+             <p> <input type="radio" name="Curso" id="isegurançadainformação">
+              <label for="isegurançadainformação">Segurança da Informação</label> </p>
+
+             <p> <input type="radio" name="Curso" id="ihtml">
+              <label for="ihtml"> HTML </label> </p>
+
+             <p> <input type="radio" name="Curso" id="iredesdecomputação">
+            <label for="iredesdecomputação"> Redes de Computação </label> </p>
+
+            <p> <input type="radio" name="Curso" id="ianalisededesenvolvimento">
+          <label for="ianalisededesenvolvimento">Analise de Desenvolvimento</label> </p>
+
+          <p> <input type="radio" name="Curso" id="icursodeengenhariamecanica">
+            <label for="icursodeengenhariamecanica">Curso de Engenharia Mecânica</label> </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+
+            </form>
+          
+        
+        
+        
+        
+        
+        
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer> 
+        <fieldset>
+        <p>Trabalho:Desenvolvimento Web</p>
+        <p>Aluno: Vornei Luciano</p>
+        <p>Professor: João Lucio </p>
+    </fieldset>
+
+    </footer>
+    
+</body>
+</html>

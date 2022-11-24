@@ -1,0 +1,19 @@
+section{
+   
+
+    font-family: 'Courier New', Courier, monospace;
+}
+h1>a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: darkgrey;
+
+}
+
+img{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 160px;height: 190px;
+}
+nav>a{
+    font-size: 10pt;
+    margin-left: 10px;
+}
